@@ -132,7 +132,7 @@ class EmailReplyParser
 
   private
     EMPTY = "".freeze
-    SIGNATURE = '(?m)(--\s*$|__\s*$|\w-$)|(^(\w+\s*){1,3} ym morf tneS$)'
+    SIGNATURE = '(?m)(--\s*$|__\s*$|\w-$)|(^(\w+\s*){1,3} ym morf tneS$)|(.*:morF)'
     QUOTE_HEADER_REGULAR_EXPRESSIONS = [
       # English
       /^On.*wrote:$/,
