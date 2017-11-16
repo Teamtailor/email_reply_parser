@@ -59,7 +59,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'bundler', '~> 1.10'
   s.add_development_dependency 'rake', '~> 10.0'
   s.add_development_dependency 'test-unit', '~> 3.1'
-  s.add_development_dependency 're2', '~> 0.7'
+  s.add_development_dependency 're2', '~> 1.1.1'
 
   ## Leave this section as-is. It will be automatically generated from the
   ## contents of your Git repository via the gemspec task. DO NOT REMOVE
