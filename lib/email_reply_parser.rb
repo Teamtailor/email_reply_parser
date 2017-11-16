@@ -88,11 +88,11 @@ class EmailReplyParser
         text.gsub! $1, $1.gsub("\n", " ")
       end
 
-      # Some users may reply directly above a line of underscores.
+      # Some users may reply directly above a line of underscores or hyphens.
       # In order to ensure that these fragments are split correctly,
-      # make sure that all lines of underscores are preceded by
+      # make sure that all lines of underscores or hyphens are preceded by
       # at least two newline characters.
-      text.gsub!(/([^\n])(?=\n_{7}_+)$/m, "\\1\n")
+      text.gsub!(/([^\n])((?=\n_{7}_+)|(?=\n-{7}-+))$/m, "\\1\n")
 
       # The text is reversed initially due to the way we check for hidden
       # fragments.
@@ -132,7 +132,7 @@ class EmailReplyParser
 
   private
     EMPTY = "".freeze
-    SIGNATURE = '(?m)(--\s*$|__\s*$|\w-$)|(^(\w+\s*){1,3} ym morf tneS$)'
+    SIGNATURE = '(?m)(--\s*$|__\s*$|\w-$)|(^(\w+\s*){1,3} ym morf tneS$)|(.*:morF)'
     QUOTE_HEADER_REGULAR_EXPRESSIONS = [
       # English
       /^On.*wrote:$/,
