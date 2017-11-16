@@ -2,6 +2,11 @@ language: ruby
 rvm:
   - 2.4.1
 before_install:
-  - sudo apt-get install libre2-dev
+  - git clone https://code.googlesource.com/re2
+  - cd re2
+  - make
+  - make test
+  - make install
+  - make testinstall
 notifications:
   email: false
