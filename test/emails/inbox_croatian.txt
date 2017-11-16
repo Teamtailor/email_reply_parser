@@ -1,0 +1,11 @@
+This is text from gmail set up with croatian locale
+
+pon, 13. stu 2017. u 18:02 John Doe <john@example.com> napisao je:
+
+> i am having an odd issue wherein suddenly port forwarding stopped
+> working in a particular scenario for me.  by default i have ssh set to
+> use the following config (my ~/.ssh/config file):
+> […]
+> ---
+> reply to this email directly or view it on github:
+> https://github.com/textmate/rmate/issues/29

@@ -138,7 +138,14 @@ class EmailReplyParser
       /^On.*wrote:$/,
 
       # Gmail in Danish
-      /^\d{1,2}.*kl\..*skrev.*:$/
+      /^\d{1,2}.*kl\..*skrev.*:$/,
+
+      # Inbox in Croatian
+      /^.*u.*napisao je:$/,
+      /^.*u.*napisala je:$/,
+
+      # Gmail in Croatian
+      /^Dana \d{1,2}.*napisala je:$/
     ]
 
     begin

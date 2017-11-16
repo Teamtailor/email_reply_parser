@@ -219,6 +219,16 @@ I am currently using the Java HTTP API.\n", reply.fragments[0].to_s
     body = IO.read EMAIL_FIXTURE_PATH.join("gmail_danish.txt").to_s
     assert_equal 'This is text from gmail set up with danish locale', EmailReplyParser.parse_reply(body)
   end
+  
+  def test_croatian_gmail_client
+    body = IO.read EMAIL_FIXTURE_PATH.join("gmail_croatian.txt").to_s
+    assert_equal 'This is text from gmail set up with croatian locale', EmailReplyParser.parse_reply(body)
+  end
+
+  def test_croatian_inbox_client
+    body = IO.read EMAIL_FIXTURE_PATH.join("inbox_croatian.txt").to_s
+    assert_equal 'This is text from gmail set up with croatian locale', EmailReplyParser.parse_reply(body)
+  end
 
   def test_one_is_not_on
     reply = email("email_one_is_not_on")
