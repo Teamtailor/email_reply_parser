@@ -6,7 +6,7 @@ before_install:
   - cd re2
   - make
   - make test
-  - make install
-  - make testinstall
+  - sudo make install
+  - sudo make testinstall
 notifications:
   email: false
