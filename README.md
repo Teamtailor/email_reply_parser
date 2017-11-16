@@ -1,5 +1,7 @@
 # Email Reply Parser
 
+[![Build Status](https://travis-ci.org/shime/email_reply_parser.svg?branch=master)](https://travis-ci.org/shime/email_reply_parser)
+
 EmailReplyParser is a small library to parse plain text email content.
 
 This is what GitHub uses to display comments that were created from
