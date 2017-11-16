@@ -1,7 +1,7 @@
 language: ruby
 rvm:
   - 2.4.1
-before_script:
+before_install:
   - sudo apt-get install libre2-dev
 notifications:
   email: false
