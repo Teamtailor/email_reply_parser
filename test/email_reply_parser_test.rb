@@ -256,6 +256,11 @@ I am currently using the Java HTTP API.\n", reply.fragments[0].to_s
     assert_equal 1, reply.fragments.size
   end
 
+  def test_yahoo_swedish_client
+    body = IO.read EMAIL_FIXTURE_PATH.join("yahoo_swedish.txt").to_s
+    assert_equal "Hej\nTack för ett bra samtal.", EmailReplyParser.parse_reply(body)
+  end
+
   def email(name)
     body = IO.read EMAIL_FIXTURE_PATH.join("#{name}.txt").to_s
     EmailReplyParser.read body

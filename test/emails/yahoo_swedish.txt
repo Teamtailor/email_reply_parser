@@ -1,0 +1,25 @@
+Hej
+Tack för ett bra samtal.
+
+      Från: "John Doe, Acme" <john@foo.bar.com>
+ Till: example@yahoo.se
+ Skickat: tisdag, 17 oktober 2017 10:44
+ Ämne: Möte Acme
+
+ Teamtailor#yiv5187564460 #yiv5187564460 #yiv5187564460outlook a{padding:0;}#yiv5187564460 #yiv5187564460 .yiv5187564460ReadMsgBody{width:100%;}#yiv5187564460 .yiv5187564460ExternalClass{width:100%;}#yiv5187564460 #yiv5187564460 .yiv5187564460ExternalClass, #yiv5187564460 .yiv5187564460ExternalClass p, #yiv5187564460 .yiv5187564460ExternalClass span, #yiv5187564460 .yiv5187564460ExternalClass font, #yiv5187564460 .yiv5187564460ExternalClass td, #yiv5187564460 .yiv5187564460ExternalClass div {line-height:100%;}#yiv5187564460 #yiv5187564460 body, #yiv5187564460 table, #yiv5187564460 td, #yiv5187564460 a{}#yiv5187564460 #yiv5187564460 table, #yiv5187564460 td{}#yiv5187564460 #yiv5187564460 img{}#yiv5187564460 #yiv5187564460 #yiv5187564460 img{border:0;min-height:auto;line-height:100%;outline:none;text-decoration:none;}#yiv5187564460 table{border-collapse:collapse;}#yiv5187564460 body{min-height:100% !important;background-color:white;}#yiv5187564460 p {margin:0;}#yiv5187564460 #yiv5187564460 .yiv5187564460appleBody a {color:#68440a;text-decoration:none;}
+|  Hej Foo,
+
+Tack för trevligt samtal! Varmt välkommen på möte.
+
+Vi ser fram emot att träffa dig!
+
+Vänliga Hälsningar,
+John Doe
+ Consultant
+ Acme Corp
+
+ Stadsgatan 20, 4tr
+ Box 1234, 100 91 Stockholm
+ Tel: +46 70 00 00 00
+ Mob: +46 70 00 00 00
+ www.example.com
